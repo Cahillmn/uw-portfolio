@@ -1,0 +1,96 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-image: url(../images/blue.jpeg);
+   background-attachment: fixed;
+   font-family: verdana, helvetica, sans-serif;
+   font-size: 100%;
+}
+
+nav{
+   height:50px;
+   line-height: 50px;
+   background:#ccc;
+}
+
+nav li {
+   float:left;
+   list-style-type: none;
+   width:20%;
+   text-align: center;
+}
+
+nav a {
+   text-decoration: none;
+   display:block
+   
+}
+
+nav a:hover {
+   background: darkblue;
+   color:white;
+}
+
+h1 {
+   /*   property:value;         */
+   text-align: center;
+   color: red;
+   /*            color:#000;*/
+   /*            color:rgb(0,0,255);*/
+   font-size: 3em;
+}
+
+.center {
+   display:block;
+   margin:20px auto;
+   text-align: center;
+}
+
+h2 {
+   font-size: 2em;
+}
+
+
+h1,
+h2 {
+   margin: 20px;
+   font-family: "Times new roman", times, serif;
+}
+
+div#wrapper {
+   width: 940px;
+   margin: 20px auto;
+   background: rgba(255, 255, 255);
+   padding: 20px;
+   /*            trouble - t r b l and clockwise  */
+
+
+}
+
+p {
+   margin-bottom: 20px;
+   line-height: 1.45;
+}
+
+ul {
+    margin:0 0 10px 30px;
+    list-style-type: none;
+    
+}
+
+   footer {
+      border-top:1px brown dotted;
+      height:50px;
+      clear:both;
+      line-height: 50px;
+  }
+  
+  footer li {
+      
+      float:left;
+      list-style-type:none;
+      margin-right: 30px;
+  }
