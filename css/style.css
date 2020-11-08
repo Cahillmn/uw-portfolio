@@ -6,8 +6,9 @@
 body {
    background-image: url(../images/blue.jpeg);
    background-attachment: fixed;
-   font-family: verdana, helvetica, sans-serif;
    font-size: 100%;
+   font-family: 'Nunito', sans-serif;
+
 }
 
 nav{
@@ -35,12 +36,18 @@ nav a:hover {
 }
 
 h1 {
-   /*   property:value;         */
+   
    text-align: center;
    color: red;
-   /*            color:#000;*/
-   /*            color:rgb(0,0,255);*/
    font-size: 3em;
+   
+}
+.project img {
+   border: solid blue;
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+   width:50%;
 }
 
 .center {
@@ -53,11 +60,9 @@ h2 {
    font-size: 2em;
 }
 
-
 h1,
 h2 {
    margin: 20px;
-   font-family: "Times new roman", times, serif;
 }
 
 div#wrapper {
@@ -70,6 +75,8 @@ div#wrapper {
 
 }
 
+
+
 p {
    margin-bottom: 20px;
    line-height: 1.45;
@@ -80,17 +87,26 @@ ul {
     list-style-type: none;
     
 }
+.project {
+   height: 175px;
+   width: 25%;
+}
 
+figcaption {
+   text-align: center;
+   padding-top: 10px;
+}
+
+.flex-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
    footer {
-      border-top:1px brown dotted;
       height:50px;
-      clear:both;
-      line-height: 50px;
+   line-height: 50px;
+   background:#ccc;
+   padding-left:20px;
   }
   
-  footer li {
-      
-      float:left;
-      list-style-type:none;
-      margin-right: 30px;
-  }
+  
