@@ -1,3 +1,5 @@
+
+  
 * {
    margin: 0;
    padding: 0;
@@ -22,17 +24,28 @@ nav li {
    list-style-type: none;
    width:20%;
    text-align: center;
+   
 }
 
 nav a {
    text-decoration: none;
-   display:block
+   display:block;
+   transition-property:font-size;
+   transition-duration:1s;
+   transition-delay: 250ms;
    
 }
 
+
 nav a:hover {
    background: darkblue;
+   /* color:white; */
+   font-size: 1.5rem;
+   font-weight: bold;
    color:white;
+   
+
+   
 }
 
 h1 {
@@ -42,13 +55,36 @@ h1 {
    font-size: 3em;
    
 }
-.project img {
+
+.project {
    border: solid blue;
+   margin: 30px 75px 30px 75px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   height: 25%;
+   width: 20%;
+  
+
+}
+
+.project img {
+   
    display:block;
    margin-left: auto;
    margin-right: auto;
    width:50%;
+   
+   
 }
+
+.project:nth-child(odd) {
+   background-color: rgb(183, 240, 183);
+}
+
+.project:nth-child(even) {
+   background-color:rgb(245, 203, 187);
+}
+
 
 .center {
    display:block;
@@ -85,14 +121,26 @@ ul {
     list-style-type: none;
     
 }
-.project {
-   height: 175px;
-   width: 25%;
-}
 
 figcaption {
    text-align: center;
    padding-top: 10px;
+   
+   
+}
+
+figcaption a {
+   transition-property:font-size;
+   transition-duration:1s;
+   transition-delay: 250ms;
+}
+
+figcaption a:hover {
+   font-size: 1.5rem;
+   font-weight: bold;
+   color:red;
+   
+   
 }
 
 .flex-container {
@@ -106,5 +154,4 @@ figcaption {
    background:#ccc;
    padding-left:20px;
   }
-  
   
