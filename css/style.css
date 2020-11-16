@@ -58,11 +58,12 @@ h1 {
 
 .project {
    border: solid blue;
-   margin: 30px 75px 30px 75px;
+   margin: 30px 50px;
    padding-top: 50px;
    padding-bottom: 50px;
    height: 25%;
    width: 20%;
+   
   
 
 }
@@ -147,6 +148,7 @@ figcaption a:hover {
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
+   justify-content: space-evenly;
 }
    footer {
       height:50px;
